@@ -31,7 +31,7 @@ const Navbar = () => {
 					</li>
 				</ul>
 				<div className='hamburger'>
-					<HiOutlineMenuAlt4 />
+					<HiOutlineMenuAlt4 className='icon' />
 				</div>
 			</div>
 		</div>
