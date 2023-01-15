@@ -19,9 +19,15 @@ const Best = () => {
 				<p>Agricultural</p>
 			</div>
 			<div className='container'>
-				<img src={apt1} alt=''></img>
-				<img src={apt2} alt=''></img>
-				<img src={apt3} alt=''></img>
+				<img
+					src='https://cdn.pixabay.com/photo/2017/10/28/09/57/venice-2896591_1280.jpg'
+					alt=''></img>
+				<img
+					src='https://cdn.pixabay.com/photo/2015/05/02/09/31/dresden-749683_1280.jpg'
+					alt=''></img>
+				<img
+					src='https://cdn.pixabay.com/photo/2017/06/03/11/37/giethoorn-2368494_1280.jpg'
+					alt=''></img>
 			</div>
 			<button className='btn'>View All</button>
 		</div>
