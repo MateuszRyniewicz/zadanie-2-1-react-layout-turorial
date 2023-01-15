@@ -65,12 +65,12 @@ const Featured = () => {
 				</div>
 			</div>
 			<div className='container'>
-				<img src={Bed3} alt='' />
-				<img src={Bed4} alt='' />
-				<img className='span-3 image-grid-row-2' src={House2} alt='' />
-				<img src={Bathroom2} alt='' />
-				<img src={LivingRoom} alt='' />
-				<div className='span-2 right-img-details'>
+				<img className='order-2' src={Bed3} alt='' />
+				<img className='order-3' src={Bed4} alt='' />
+				<img className='order-1 span-3 image-grid-row-2' src={House2} alt='' />
+				<img className='order-4' src={Bathroom2} alt='' />
+				<img className='order-5' src={LivingRoom} alt='' />
+				<div className='order-7 span-2 right-img-details'>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
 						omnis unde dolores sed, sapiente, repudiandae excepturi illum
@@ -79,7 +79,7 @@ const Featured = () => {
 					</p>
 					<button className='btn'>View Listing</button>
 				</div>
-				<div className='span-3 img-details'>
+				<div className='order-6 span-3 img-details'>
 					<div className='top'>
 						<h2>123 Acme St. Dallas, TX</h2>
 						<p>House for Sale</p>
