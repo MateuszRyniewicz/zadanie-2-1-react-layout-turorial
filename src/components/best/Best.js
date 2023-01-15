@@ -1,9 +1,5 @@
 import React from 'react';
 
-import apt1 from '../../assets/apt1.jpeg';
-import apt2 from '../../assets/apt2.jpeg';
-import apt3 from '../../assets/apt3.jpeg';
-
 import '../../scss/Best.scss';
 
 const Best = () => {
