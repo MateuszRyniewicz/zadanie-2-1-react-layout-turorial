@@ -6,7 +6,7 @@ import { data } from '../../data';
 
 const Hero = () => {
 	const [filteredList, setFilteredList] = useState(data);
-	const [openPopUp, setOpenPopUp] = useState(true);
+	const [openPopUp, setOpenPopUp] = useState(false);
 	const [inputSearchTitle, setInputSearchTitle] = useState('');
 	console.log(filteredList);
 
