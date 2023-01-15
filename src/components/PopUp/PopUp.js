@@ -1,7 +1,7 @@
 import React from 'react';
 import './popUp.scss';
 
-const PopUp = ({ open, onClose }) => {
+const PopUp = ({ open, onClose, filteredList }) => {
 	if (!open) return null;
 	return (
 		<div onClick={onClose} className='overlay'>
@@ -15,9 +15,35 @@ const PopUp = ({ open, onClose }) => {
 						X
 					</p>
 					<div className='content-popUp'>
-						<p>text</p>
-						<h3>text</h3>
-						<p>test</p>
+						{filteredList.map((item, index) => (
+							<div key={index} className='card-item'>
+								<thead className='table'>
+									<tr>
+										<th colSpan={2}>Car</th>
+									</tr>
+								</thead>
+								<tbody className='tbody'>
+									<tr className='row'>
+										<td className='td'>Car: {item.car}</td>
+									</tr>
+									<tr>
+										<td className='td'>Model: {item.car_model}</td>
+									</tr>
+									<tr>
+										<td className='td'>Color: {item.car_color}</td>
+									</tr>
+									<tr>
+										<td className='td'>Year: {item.car_model_year}</td>
+									</tr>
+									<tr>
+										<td className='td'>Vin: {item.car_vin}</td>
+									</tr>
+									<tr>
+										<td className='td'>Price: {item.price}</td>
+									</tr>
+								</tbody>
+							</div>
+						))}
 					</div>
 					<div className='btnContainer'>
 						<button className='btnPrimary' onClick={onClose}>
