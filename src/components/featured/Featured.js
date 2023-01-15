@@ -10,7 +10,7 @@ import Bed3 from '../../assets/bed3.jpg';
 import Bed4 from '../../assets/bed4.jpg';
 import Bathroom2 from '../../assets/bath2.jpg';
 import LivingRoom from '../../assets/living-room.jpg';
-import './Feeatured.css';
+import '../../scss/Feeatured.scss';
 
 const Featured = () => {
 	return (

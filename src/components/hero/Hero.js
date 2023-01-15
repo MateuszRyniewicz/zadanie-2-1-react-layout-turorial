@@ -1,6 +1,6 @@
 import { React } from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
-import './Hero.css';
+import '../../scss/Hero.scss';
 
 const Hero = () => {
 	return (

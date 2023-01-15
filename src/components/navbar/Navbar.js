@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { HiOutlineMenuAlt4 } from 'react-icons/hi';
 import { FaRegTimesCircle } from 'react-icons/fa';
 import { BsFillHouseFill } from 'react-icons/bs';
-import './Navbar.css';
+import '../../scss/Navbar.scss';
 
 const Navbar = () => {
 	const [click, setClick] = useState(false);
