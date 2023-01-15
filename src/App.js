@@ -4,6 +4,7 @@ import Featured from './components/featured/Featured';
 import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import Navbar from './components/navbar/Navbar';
+import PopUp from './components/PopUp/PopUp';
 
 const App = () => {
 	return (
@@ -13,6 +14,7 @@ const App = () => {
 			<Best />
 			<Featured />
 			<Footer />
+			<PopUp></PopUp>
 		</>
 	);
 };
