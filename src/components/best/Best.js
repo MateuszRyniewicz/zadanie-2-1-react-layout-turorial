@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../scss/Best.scss';
+import '../../scss/best.scss';
 
 const Best = () => {
 	return (

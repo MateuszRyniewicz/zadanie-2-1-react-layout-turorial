@@ -1,7 +1,9 @@
+@import './colors.scss';
+
 .footer {
 	width: 100%;
 	padding: 2rem 0;
-	background-color: #f8f8f8;
+	background-color: $first-color;
 }
 
 .footer .container {
@@ -29,7 +31,7 @@
 .footer .icon {
 	font-size: 2rem;
 	margin: 2rem 3rem;
-	color: #5651e5;
+	color: $logo-color;
 }
 
 @media screen and (max-width: 940px) {

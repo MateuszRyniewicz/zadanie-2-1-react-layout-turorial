@@ -1,6 +1,8 @@
+@import '../scss//colors.scss';
+
 .hero {
-	background-color: rgba(0, 0, 0, 0.5);
-	color: #fff;
+	background-color: $shadow-color-hero;
+	color: $first-color;
 	height: 80vh;
 	width: 100%;
 	position: relative;
@@ -9,7 +11,8 @@
 
 .hero::before {
 	content: '';
-	background: url('https://cdn.pixabay.com/photo/2018/08/14/09/34/sydney-3605032_1280.jpg') no-repeat center center/cover;
+	background: url('https://cdn.pixabay.com/photo/2018/08/14/09/34/sydney-3605032_1280.jpg')
+		no-repeat center center/cover;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -27,6 +30,7 @@
 	max-width: 700px;
 	margin: auto;
 	padding: 1rem;
+	color: $first-color;
 }
 
 .hero h1 {
@@ -41,11 +45,11 @@
 
 .search {
 	display: flex;
-	background-color: #fff;
-	color: #333;
+	background-color: $second-color;
+	color: $first-color;
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid #ccc;
+	border: 1px solid $border-color;
 	padding: 4px;
 	border-radius: 8px;
 }
@@ -72,9 +76,9 @@
 }
 
 .search button {
-	background-image: linear-gradient(45deg, #5651e5 0%, #709dff 100%);
-	border: 1px solid #5651e5;
-	color: #fff;
+	background-image: $gradient-color;
+	border: 1px solid $border-color;
+	color: $first-color;
 	padding: 10px;
 	border-radius: 8px;
 	cursor: pointer;

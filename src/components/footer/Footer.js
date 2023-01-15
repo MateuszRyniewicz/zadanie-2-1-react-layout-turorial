@@ -7,7 +7,7 @@ import {
 	FaPinterest,
 } from 'react-icons/fa';
 
-import '../../scss/Footer.scss';
+import '../../scss/footer.scss';
 
 const Footer = () => {
 	return (
